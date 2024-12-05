@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace MathGame
 {
     public class GameRecord
     {
-        public string time { get; set; }
-        public string typeOfGame { get; set; }
-        public int score { get; set; }
+        public string Time { get; set; }
+        public string TypeOfGame { get; set; }
+        public int Score { get; set; }
 
         public GameRecord(string time, string typeOfGame, int score)
         {
-            this.time = time;
-            this.typeOfGame = typeOfGame;
-            this.score = score;
+            this.Time = time;
+            this.TypeOfGame = typeOfGame;
+            this.Score = score;
         }
     }
 }
